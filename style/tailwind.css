@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  prefix: dui-;
+  themes: retro --default,abyss,light,dark;
+}
+@plugin "@tailwindcss/typography";
+@source "./src/**/*.rs";
