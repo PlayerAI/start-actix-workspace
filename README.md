@@ -19,8 +19,15 @@ Then run
 ```bash
 cargo leptos new --git https://github.com/PlayerAI/start-actix-workspace/
 ```
+Install npm first, 
 
-to generate a new project template.
+Then run
+```bash
+npm i -D tailwindcss@latest
+npm i -D daisyui@latest
+```
+
+to generate a new project template, and install tailwincss, daisyui for frontend.
 
 ```bash
 cd {{project-name}}
