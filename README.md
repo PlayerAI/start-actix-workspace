@@ -17,7 +17,7 @@ cargo install cargo-leptos --locked
 
 Then run
 ```bash
-cargo leptos new --git https://github.com/leptos-rs/start-axum-workspace/
+cargo leptos new --git https://github.com/PlayerAI/start-actix-workspace/
 ```
 
 to generate a new project template.
