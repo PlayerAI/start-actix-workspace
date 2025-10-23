@@ -36,5 +36,6 @@ ssr = [
     "leptos/ssr",
     "leptos_meta/ssr",
     "leptos_router/ssr",
-    "dep:leptos_actix"
+    "dep:leptos_actix",
+    "dep:dotenvy"
     ]
