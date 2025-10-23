@@ -1,4 +1,6 @@
 
+#![recursion_limit = "512"]
+#![allow(dead_code, unused)]
 use leptos::logging::log;
 
  

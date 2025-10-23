@@ -1,3 +1,13 @@
+#![recursion_limit = "512"]
+#![allow(dead_code, unused)]
+pub mod env;
+pub mod api;
+pub mod components;
+pub mod database;
+pub mod db;
+pub mod models;
+pub mod pages;
+//----------------------------------
 use leptos::prelude::*;
 use leptos_meta::{provide_meta_context, MetaTags, Stylesheet, Title};
 use leptos_router::{

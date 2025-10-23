@@ -13,6 +13,7 @@ If you don't have `cargo-leptos` installed you can install it with
 
 ```bash
 cargo install cargo-leptos --locked
+cargo install wasm-opt
 ```
 
 Then run
@@ -25,7 +26,10 @@ Then run
 ```bash
 npm i -D tailwindcss@latest
 npm i -D daisyui@latest
+
 ```
+
+then, install tailwindcss.exe to one of your path. You are good to go.
 
 to generate a new project template, and install tailwincss, daisyui for frontend.
 

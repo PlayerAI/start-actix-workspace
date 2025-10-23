@@ -13,4 +13,11 @@ leptos_actix.workspace = true
 actix-web.workspace = true
 actix-files.workspace = true
 simple_logger.workspace = true 
-log.workspace = true
+#log.workspace = true
+
+
+ring.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+tracing-log.workspace = true
+dotenvy = {version ="0.15.7" }
