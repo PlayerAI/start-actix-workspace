@@ -16,6 +16,7 @@ cargo install cargo-leptos --locked
 cargo install wasm-opt
 ```
 
+to generate a new project template, and install tailwincss, daisyui for frontend.
 Then run
 ```bash
 cargo leptos new --git https://github.com/PlayerAI/start-actix-workspace/
@@ -24,6 +25,7 @@ Install npm first,
 
 Then run
 ```bash
+cd {{project-name}}
 npm i -D tailwindcss@latest
 npm i -D daisyui@latest
 
@@ -31,11 +33,11 @@ npm i -D daisyui@latest
 
 then, install tailwindcss.exe to one of your path. You are good to go.
 
-to generate a new project template, and install tailwincss, daisyui for frontend.
-
 ```bash
-cd {{project-name}}
+cargo leptos watch
 ```
+
+ 
 
 to go to your newly created project.  
 Feel free to explore the project structure, but the best place to start with your application code is in `src/app.rs`.  
